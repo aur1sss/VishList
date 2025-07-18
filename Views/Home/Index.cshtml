@@ -2,7 +2,42 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<body>
+    <button class="add-button">Добавить в вишлист товар</button>
+    
+    <div class="product-list">
+        <!-- Пример товара 1 -->
+        <div class="product-item">
+            <div class="product-name">Смартфон XYZ</div>
+            <div class="product-price">25 990 ₽</div>
+            <div class="product-description">Новый флагманский смартфон с тройной камерой и AMOLED-экраном.</div>
+            <div class="product-actions">
+                <button class="action-button edit-button">Изменить</button>
+                <button class="action-button delete-button">Удалить</button>
+            </div>
+        </div>
+        
+        <!-- Пример товара 2 -->
+        <div class="product-item">
+            <div class="product-name">Беспроводные наушники Pro</div>
+            <div class="product-price">8 490 ₽</div>
+            <div class="product-description">Наушники с активным шумоподавлением и временем работы до 30 часов.</div>
+            <div class="product-actions">
+                <button class="action-button edit-button">Изменить</button>
+                <button class="action-button delete-button">Удалить</button>
+            </div>
+        </div>
+        
+        <!-- Пример товара 3 -->
+        <div class="product-item">
+            <div class="product-name">Умные часы Fitness</div>
+            <div class="product-price">12 990 ₽</div>
+            <div class="product-description">Отслеживание активности, пульса, сна и уведомления со смартфона.</div>
+            <div class="product-actions">
+                <button class="action-button edit-button">Изменить</button>
+                <button class="action-button delete-button">Удалить</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
