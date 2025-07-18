@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VishList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e024a17e75774d7186369c38b18353f793a67b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ebe3af5a5a8dad0edc3cb7aad1aa4a9f654b302")]
 [assembly: System.Reflection.AssemblyProductAttribute("VishList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VishList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
